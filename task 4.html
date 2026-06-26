@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fill in your information</h1>
+    <form action="">
+        <fieldset>
+            <legend>Form</legend>
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id="fname"><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" id="lname"><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" name="email" id="email"><br><br><br>
+
+            <h2>Your Gender</h2>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <h2>Favorite Subjects</h2>
+            <input type="checkbox" id="cp">
+            <label for="cp">C++</label>
+            <input type="checkbox" id="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="cs">
+            <label for="cs">C#</label>
+            <input type="checkbox" id="php">
+            <label for="php">PHP</label>
+            <input type="checkbox" id="sql">
+            <label for="sql">SQL</label>
+
+            <h2>Your City</h2>
+            <div>
+                City : <select>
+                    <option>Amman</option>
+                    <option>Al Balqaa</option>
+                    <option selected>Irbid</option>
+                    <option>Al Zarqa</option>
+                    <option>Ajlon</option>
+                </select><br><br>
+            </div>
+
+            <div>
+                Upload Image: <input type="file">
+            </div>
+            <div>
+                Write About Yourself : <br><br>
+                <textarea rows="5" cols="40" placeholder="write here"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
